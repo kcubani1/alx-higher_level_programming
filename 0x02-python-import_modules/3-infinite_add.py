@@ -5,9 +5,9 @@ if __name__ == "__main__":
     if len(argv) == 1:
         print(sum)
         exit(0)
-        arg_len = len(argv
-                i = 1
-                while i < arg_len:
-                sum += int(argv[i])
-                i += 1
-                print(sum)
+    arg_len = len(argv
+    i = 1
+    while i < arg_len:
+        sum += int(argv[i])
+        i += 1
+    print(sum)
