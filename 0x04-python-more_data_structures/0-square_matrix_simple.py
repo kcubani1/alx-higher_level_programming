@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def square_matrix_simple(matrix=[]):
     if not matrix:
         return None
@@ -6,4 +7,4 @@ def square_matrix_simple(matrix=[]):
     for row in matrix:
         inner_list = [x * x for x in row]
         new_list.append(inner_list)
-        return new_list
+    return new_list
